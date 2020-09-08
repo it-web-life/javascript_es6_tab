@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="heading">sample: タブ機能の実装</h1>
+  </header>
+
+  <div class="container">
+
+    <!-- Tab -->
+    <h2 class="sub-heading">Tabグループ1 (1〜4匹目の猫)</h2>
+    <div class="tab">
+      <!-- Tab Button -->
+      <div class="tab__button">
+        <ul class="list">
+          <li class="js-tab-trigger item is-current" data-tab-group="tabGroup1" data-tab-name="cat01">
+            <button class="button" type="button">1匹目の猫</button>
+          </li>
+          <li class="js-tab-trigger item" data-tab-group="tabGroup1" data-tab-name="cat02">
+            <button class="button" type="button">2匹目の猫</button>
+          </li>
+          <li class="js-tab-trigger item" data-tab-group="tabGroup1" data-tab-name="cat03">
+            <button class="button" type="button">3匹目の猫</button>
+          </li>
+          <li class="js-tab-trigger item" data-tab-group="tabGroup1" data-tab-name="cat04">
+            <button class="button" type="button">4匹目の猫</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Tab Content -->
+      <div class="tab__content">
+        <div class="js-tab-content content is-current" data-tab-group="tabGroup1" data-tab-name="cat01">
+          <h2 class="title">1匹目の猫</h2>
+          <div class="box">
+            <div class="imageWrap"><img class="image" src="./images/cat_01.jpg" alt="cat"></div>
+            <p class="text">これは1匹目の猫です。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
+          </div>
+        </div>
+        <div class="js-tab-content content" style="display: none;" data-tab-group="tabGroup1" data-tab-name="cat02">
+          <h2 class="title">2匹目の猫</h2>
+          <div class="box">
+            <div class="imageWrap"><img class="image" src="./images/cat_02.jpg" alt="cat"></div>
+            <p class="text">これは2匹目の猫です。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
+          </div>
+        </div>
+        <div class="js-tab-content content" style="display: none;" data-tab-group="tabGroup1" data-tab-name="cat03">
+          <h2 class="title">3匹目の猫</h2>
+          <div class="box">
+            <div class="imageWrap"><img class="image" src="./images/cat_03.jpg" alt="cat"></div>
+            <p class="text">これは3匹目の猫です。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
+          </div>
+        </div>
+        <div class="js-tab-content content" style="display: none;" data-tab-group="tabGroup1" data-tab-name="cat04">
+          <h2 class="title">4匹目の猫</h2>
+          <div class="box">
+            <div class="imageWrap"><img class="image" src="./images/cat_04.jpg" alt="cat"></div>
+            <p class="text">これは4匹目の猫です。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab -->
+    <h2 class="sub-heading">Tabグループ2 (5〜8匹目の猫)</h2>
+    <div class="tab">
+      <!-- Tab Button -->
+      <div class="tab__button">
+        <ul class="list">
+          <li class="js-tab-trigger item is-current" data-tab-group="tabGroup2" data-tab-name="cat05">
+            <button class="button" type="button">5匹目の猫</button>
+          </li>
+          <li class="js-tab-trigger item" data-tab-group="tabGroup2" data-tab-name="cat06">
+            <button class="button" type="button">6匹目の猫</button>
+          </li>
+          <li class="js-tab-trigger item" data-tab-group="tabGroup2" data-tab-name="cat07">
+            <button class="button" type="button">7匹目の猫</button>
+          </li>
+          <li class="js-tab-trigger item" data-tab-group="tabGroup2" data-tab-name="cat08">
+            <button class="button" type="button">8匹目の猫</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Tab Content -->
+      <div class="tab__content">
+        <div class="js-tab-content content is-current" data-tab-group="tabGroup2" data-tab-name="cat05">
+          <h2 class="title">5匹目の猫</h2>
+          <div class="box">
+            <div class="imageWrap"><img class="image" src="./images/cat_05.jpg" alt="cat"></div>
+            <p class="text">これは5匹目の猫です。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
+          </div>
+        </div>
+        <div class="js-tab-content content" style="display: none;" data-tab-group="tabGroup2" data-tab-name="cat06">
+          <h2 class="title">6匹目の猫</h2>
+          <div class="box">
+            <div class="imageWrap"><img class="image" src="./images/cat_06.jpg" alt="cat"></div>
+            <p class="text">これは6匹目の猫です。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
+          </div>
+        </div>
+        <div class="js-tab-content content" style="display: none;" data-tab-group="tabGroup2" data-tab-name="cat07">
+          <h2 class="title">7匹目の猫</h2>
+          <div class="box">
+            <div class="imageWrap"><img class="image" src="./images/cat_07.jpg" alt="cat"></div>
+            <p class="text">これは7匹目の猫です。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
+          </div>
+        </div>
+        <div class="js-tab-content content" style="display: none;" data-tab-group="tabGroup2" data-tab-name="cat08">
+          <h2 class="title">8匹目の猫</h2>
+          <div class="box">
+            <div class="imageWrap"><img class="image" src="./images/cat_08.jpg" alt="cat"></div>
+            <p class="text">これは8匹目の猫です。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./bandle.js"></script>
+</body>
+</html>
